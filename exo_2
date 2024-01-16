@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int ft_calcultab(int *tab)
+{
+    int result = 0;
+    int i = 0;
+    while (tab[i] != NULL)
+    {
+        result = result + tab[i];
+        i++;
+    }
+    return (result);
+}
+
+int main()
+{
+    int *tab = {1, 2, 3, 4};
+    printf("Result = %i\n", ft_calcultab(tab));
+    return (0);
+}
