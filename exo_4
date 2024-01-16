@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int ft_tab_max(int *tab)
+{
+    int result = 0;
+    int i = 0;
+    while (tab[i] != NULL)
+    {
+        if (tab[i] > result)
+        {
+            result = tab[i];
+        }
+        i++;
+    }
+    return (result);
+}
+
+int main()
+{
+    int *tab = {42, 99, 23, 56};
+    printf("Nombre plus grand = %i\n", ft_tab_max(tab));
+    return 0;
+}
