@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+float ft_celsius_to_fahrenheit(float temperature)
+{
+    float result = 0;
+    result = (temperature * 9/5) + 32;
+    return result;
+}
+
+int main()
+{
+    float celsius = 26.0;
+    printf("Fahrenheit = %.2f\n", ft_celsius_to_fahrenheit(celsius));
+    return 0;
+}
