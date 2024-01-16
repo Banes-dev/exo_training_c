@@ -19,4 +19,4 @@ Vous devez créer une fonction qui prend en paramètres une temperature en degr�
 
 
 ## Exercice 4 :
-Vous devez créer une fonction qui prend en paramètres une temperature en degrès celsius et qui renvoie la valeur correspondant en Fahrenheit.
+Vous devez créer une fonction qui prend en paramètres un tableau d'entiers et qui doit retourner le nombre le plus grand de ce tableau.
